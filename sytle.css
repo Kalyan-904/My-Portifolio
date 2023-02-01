@@ -6,7 +6,13 @@
     --text-black-900:#302e4d;
     --text-black-700:#504e70;
 }
-
+body.dark{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
+}
 body{
     margin: 0;
     padding: 0;
@@ -501,7 +507,9 @@ h3.my-profession{
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-
+.service .service-item .service-item-inner h4{
+    color: var(--text-black-900);
+}
 .service .service-item .service-item-inner p{
     text-align: left;
     font-size: 18px;
